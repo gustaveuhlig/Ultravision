@@ -288,6 +288,10 @@ header {
   margin-bottom: 32px;
 }
 
+.card:hover .description {
+  display:block;
+}
+
 .card h3 {
   font-family: Poppins;
   font-size: 14px;
