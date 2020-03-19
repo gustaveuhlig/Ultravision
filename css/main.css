@@ -274,7 +274,7 @@ header {
 }
 
 .card .description {
-  display: block; /*A CHANGER POUR DYNAMISME*/
+  display: none; /*A CHANGER POUR DYNAMISME*/
   position: absolute;
   top:0px;
 }
@@ -289,11 +289,16 @@ header {
 .card{
   margin-bottom: 32px;
   position: relative;
+  
 }
 
 .card:hover .description {
   display:block;
+  background-color: rgba(35, 31, 32,0.81);
+  height: 100%;
+  width: 100%;
 }
+
 
 .card h3 {
   font-family: Poppins;
@@ -319,11 +324,18 @@ header {
   text-transform: uppercase;
 }
 
-/**
-* ----------
-* CARDs
-* ----------
-*/
+.card p {
+  font-family: Poppins;
+  font-size: 16px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: center;
+  color: #ffffff;
+}
+
 
 
 
