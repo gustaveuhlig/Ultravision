@@ -117,10 +117,97 @@ header {
 
 /**
 * ----------
-* Section
+* Section1
 * ----------
 */
 
+.section1 .space-between-rows {
+  height: 64px;
+}
+
+.section1 .row {
+  display: flex;
+}
+
+/**
+* ----------
+* Section1  >  Image
+* ----------
+*/
+
+.section1 .row-image {
+  flex-grow: 1;
+  flex-shrink: 1;
+  flex-basis: 50%;
+  display: flex;
+}
+
+#row-image-1 {
+  justify-content: flex-end;
+  align-items: flex-end;
+  align-content: flex-end;
+}
+
+#row-image-2 {
+  justify-content: center;
+  align-items: flex-end;
+  align-content: flex-end; 
+}
+
+#section1-image1 {
+  object-fit: contain;
+  padding-right: 16px;
+  mix-blend-mode: multiply;
+}
+
+#section1-image2 {
+  object-fit: contain;
+  mix-blend-mode: multiply;
+}
+
+
+/**
+* ----------
+* Section1  >  Description
+* ----------
+*/
+
+.section1 .row-description {
+  flex-grow: 1;
+  flex-shrink: 1;
+  flex-basis: 50%;
+  padding: 0px 32px 0px 48px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: start;
+  align-items: center;
+  align-content: center;
+}
+
+.section1 .description-button {
+  align-self: flex-end;
+}
+
+.section1 .description-content {
+  margin-bottom: 30px;
+}
+
+
+
+/**
+* ----------
+* Other
+* ----------
+*/
+
+.gradient-sunflower {
+  background: linear-gradient(var(--sunflower-yellow), rgba(0, 0, 0, 0));
+}
+
+.gradient-orange {
+  background: linear-gradient(var(--bright-orange), rgba(0, 0, 0, 0));
+}
 .learn-more {
   font-family: Poppins;
   font-size: 20px;
