@@ -14,15 +14,7 @@ textarea,
 label,
 input,
 select {
-  font-family: Poppins;
-  font-size: 16px;
-  font-weight: normal;
-  font-stretch: normal;
-  font-style: normal;
-  line-height: normal;
-  letter-spacing: normal;
-  text-align: justify;
-  color: #231f20;
+  
 }
 
 h1 {
@@ -38,18 +30,7 @@ h1 {
   margin: 64px 0px 64px 0px;
 }
 
-h2 {
-  font-family: Poppins;
-  font-size: 24px;
-  font-weight: bold;
-  font-stretch: normal;
-  font-style: normal;
-  line-height: normal;
-  letter-spacing: normal;
-  text-align: center;
-  color: #231f20;
-  margin: 0px 0px 0px 34px;
-}
+
 
 h3 {
   /* Default font, size, and margins */
@@ -121,11 +102,36 @@ header {
 * ----------
 */
 
-.section1 .space-between-rows {
+#section1 h2 {
+  font-family: Poppins;
+  font-size: 24px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: center;
+  color: #231f20;
+  margin: 0px 0px 0px 34px;
+}
+
+#section1 p {
+  font-family: Poppins;
+  font-size: 16px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: justify;
+  color: #231f20;
+}
+
+#section1 .space-between-rows {
   height: 64px;
 }
 
-.section1 .row {
+#section1 .row {
   display: flex;
 }
 
@@ -135,7 +141,7 @@ header {
 * ----------
 */
 
-.section1 .row-image {
+#section1 .row-image {
   flex-grow: 1;
   flex-shrink: 1;
   flex-basis: 50%;
@@ -154,17 +160,14 @@ header {
   align-content: flex-end; 
 }
 
+#section1 img, #section2 img {
+  object-fit: contain;
+  mix-blend-mode: multiply;
+}
+
 #section1-image1 {
-  object-fit: contain;
   padding-right: 16px;
-  mix-blend-mode: multiply;
 }
-
-#section1-image2 {
-  object-fit: contain;
-  mix-blend-mode: multiply;
-}
-
 
 /**
 * ----------
@@ -172,11 +175,10 @@ header {
 * ----------
 */
 
-.section1 .row-description {
+#section1 .row-description {
   flex-grow: 1;
   flex-shrink: 1;
   flex-basis: 50%;
-  padding: 0px 32px 0px 48px;
   display: flex;
   flex-direction: column;
   flex-wrap: nowrap;
@@ -185,14 +187,82 @@ header {
   align-content: center;
 }
 
-.section1 .description-button {
+#section1-row-description1 {
+  padding: 0px 32px 0px 48px;
+}
+
+#section1-row-description2 {
+  padding: 0px 48px 0px 32px;
+}
+
+#section1 .description-button {
   align-self: flex-end;
 }
 
-.section1 .description-content {
+#section1 .description-content {
   margin-bottom: 30px;
 }
 
+
+/**
+* ----------
+* Section2
+* ----------
+*/
+
+#section2 h2 {
+  font-family: Poppins;
+  font-size: 32px;
+  font-weight: 900;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #ffffff;
+  margin: 65px 0px 0px 0px;
+}
+
+#section2 p {
+  font-family: Poppins;
+  font-size: 24px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #ffffff;
+}
+
+#section2 .row {
+  display:flex;
+  justify-content: space-between;
+  align-content: center;
+}
+
+/**
+* ----------
+* Section2  >  Description
+* ----------
+*/
+
+#section2 .row-description {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start; /**/
+  align-content: flex-start;
+  margin-left: 60px;
+}
+
+#section2 .row-description p {
+  margin: 32px 0px 32px 0px;
+}
+
+
+/**
+* ----------
+* Section2  >  Image
+* ----------
+*/
 
 
 /**
@@ -203,6 +273,16 @@ header {
 
 .gradient-sunflower {
   background: linear-gradient(var(--sunflower-yellow), rgba(0, 0, 0, 0));
+}
+.gradient-tomato {
+  background: linear-gradient(var(--tomato), rgba(0, 0, 0, 0));
+}
+.gradient-purple {
+  background: linear-gradient(var(--purple-pink), rgba(0, 0, 0, 0));
+}
+
+.gradient-purplish {
+  background: linear-gradient(var(--purplish-blue), rgba(0, 0, 0, 0));
 }
 
 .gradient-orange {
@@ -231,4 +311,8 @@ header {
 .learn-more-orange {
   border: solid 4px var(--bright-orange);
   color: var(--bright-orange);
+}
+.learn-more-white {
+  border: solid 4px white;
+  color: white;
 }
