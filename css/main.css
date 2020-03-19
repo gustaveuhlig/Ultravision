@@ -274,7 +274,9 @@ header {
 }
 
 .card .description {
-  display: none;
+  display: block; /*A CHANGER POUR DYNAMISME*/
+  position: absolute;
+  top:0px;
 }
 
 #section3 .row {
@@ -286,6 +288,7 @@ header {
 
 .card{
   margin-bottom: 32px;
+  position: relative;
 }
 
 .card:hover .description {
@@ -315,6 +318,14 @@ header {
   text-align: center;
   text-transform: uppercase;
 }
+
+/**
+* ----------
+* CARDs
+* ----------
+*/
+
+
 
 /**
 * ----------
