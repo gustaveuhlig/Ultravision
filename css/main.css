@@ -14,11 +14,41 @@ textarea,
 label,
 input,
 select {
-  /* Default font size and line height */
+  font-family: Poppins;
+  font-size: 16px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: justify;
+  color: #231f20;
+}
+
+h1 {
+  font-family: Poppins;
+  font-size: 40px;
+  font-weight: 900;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: center;
+  color: #231f20;
+  margin: 64px 0px 64px 0px;
 }
 
 h2 {
-  /* Default font, size, and margins */
+  font-family: Poppins;
+  font-size: 24px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: center;
+  color: #231f20;
+  margin: 0px 0px 0px 34px;
 }
 
 h3 {
@@ -80,12 +110,38 @@ header {
   color: #ffffff;
 }
 
-.first-row, .second-row {
-  padding-top:8px;
+.first-row,
+.second-row {
+  padding-top: 8px;
 }
 
 /**
 * ----------
-* Components
+* Section
 * ----------
 */
+
+.learn-more {
+  font-family: Poppins;
+  font-size: 20px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: center;
+  width: 185px;
+  height: 48px;
+  border-radius: 15px;
+  padding: 6px 32px 6px 32px;
+  text-decoration: none;
+}
+
+.learn-more-sunflower {
+  border: solid 4px var(--sunflower-yellow);
+  color: var(--sunflower-yellow);
+}
+.learn-more-orange {
+  border: solid 4px var(--bright-orange);
+  color: var(--bright-orange);
+}
