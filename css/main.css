@@ -337,6 +337,21 @@ header {
 }
 
 
+/**
+* ----------
+* Section 4
+* ----------
+*/
+
+#section4 {
+background-color: #231f20;
+}
+
+#section4 h1 {
+  color: #ffffff;
+  margin-top: 0px;
+  padding-top: 64px;
+}
 
 
 /**
