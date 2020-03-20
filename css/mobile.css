@@ -116,4 +116,14 @@
   #section2 .row-description + div {
     display: flex;
   }
+
+  /**
+  * -------------
+  * Section 3
+  * -------------
+  */
+
+  #section3 {
+      padding-top: 32px;
+  }
 }
