@@ -1,3 +1,22 @@
 @media  (min-device-width: 320px) and (max-device-width: 870px) {
-  
+  .ULTRAVISION {
+      font-size: 40px;
+  }
+
+  .Computer-Video-System {
+      font-size: 24px;
+  }
+
+  header .first-row {
+      height: 136px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+  }
+  header .second-row {
+    height: 71px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+  }
 }
