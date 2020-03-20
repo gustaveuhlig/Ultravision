@@ -1,22 +1,81 @@
-@media  (min-device-width: 320px) and (max-device-width: 870px) {
+@media (max-device-width: 870px) {
+  /**
+  * -------------
+  * HEADER
+  * -------------
+  */
+
   .ULTRAVISION {
-      font-size: 40px;
+    font-size: 40px;
   }
 
   .Computer-Video-System {
-      font-size: 24px;
+    font-size: 24px;
   }
 
   header .first-row {
-      height: 136px;
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
+    height: 136px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
   }
   header .second-row {
     height: 71px;
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  /**
+  * -------------
+  * SECTION 1
+  * -------------
+  */
+  h1 {
+    font-size: 20px;
+    margin: 32px 15px 32px 15px;
+  }
+
+  #section1 .row {
+    flex-direction: column;
+  }
+
+  #row-image-1 {
+    order: 1;
+  }
+  #section1-row-description1 {
+    order: 2;
+    padding: 0 14px 0 14px;
+  }
+
+  #section1-row-description2 {
+    padding: 0 14px 0 14px;
+  }
+
+  #section1 .row:first-of-type img {
+    max-width: 70%;
+    padding-top: 20px;
+    padding-right: 8px;
+  }
+
+  #section1 .row:last-of-type img {
+    max-width: 50%;
+  }
+
+  #section1 h2 {
+    font-size: 18px;
+    margin: 32px 0px 32px 0px;
+  }
+
+  #section1 p {
+    margin-top: 0px;
+  }
+
+  #section1 .description-button {
+    align-self: auto;
+  }
+
+  #section1 .space-between-rows {
+    height: 32px;
   }
 }
