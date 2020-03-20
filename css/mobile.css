@@ -125,5 +125,21 @@
 
   #section3 {
       padding-top: 32px;
+      text-align: center;
   }
+
+  #card-12, #card-11, #card-10, #card-9, #card-8, #card-7, #card-6 {
+      display: none;
+  } 
+
+  .see-more {
+      display: inline;
+  }
+
+  /**
+  * -------------
+  * Section 4
+  * -------------
+  */
+
 }

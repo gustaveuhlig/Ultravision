@@ -394,3 +394,7 @@ input, select, .message textarea {
 .end-space {
   height:200px;
 }
+
+.see-more {
+  display: none;
+}
