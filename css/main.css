@@ -3,25 +3,29 @@
 * Global Styles
 * -------------
 */
+h1, h2, h3, p, a, .ULTRAVISION, .Computer-Video-System, label, input, select, textarea {
+  font-family: Poppins;
+  font-stretch: normal;
+  letter-spacing: normal;
+  line-height: normal;
+  font-style: normal;
+  font-weight: normal;
+}
 
 h1 {
-  font-family: Poppins;
   font-size: 40px;
   font-weight: 900;
-  font-stretch: normal;
-  font-style: normal;
-  line-height: normal;
-  letter-spacing: normal;
   text-align: center;
   color: #231f20;
   margin: 64px 0px 64px 0px;
 }
 
-
-
-
 a:focus {
   text-decoration: underline;
+}
+
+.ULTRAVISION, .Computer-Video-System, #section2 p, #section2 h2, #section3 h1, .card h3, .card p, label, #section4 h1{
+  color: #ffffff;
 }
 
 /**
@@ -36,27 +40,15 @@ header {
 }
 
 .ULTRAVISION {
-  font-family: Poppins;
   font-size: 88px;
   font-weight: 900;
-  font-stretch: normal;
-  font-style: normal;
-  line-height: normal;
-  letter-spacing: normal;
   text-align: center;
-  color: #ffffff;
 }
 
 .Computer-Video-System {
-  font-family: Poppins;
   font-size: 38px;
   font-weight: 900;
-  font-stretch: normal;
-  font-style: normal;
-  line-height: normal;
-  letter-spacing: normal;
   text-align: center;
-  color: #ffffff;
 }
 
 .first-row,
@@ -71,26 +63,15 @@ header {
 */
 
 #section1 h2 {
-  font-family: Poppins;
   font-size: 24px;
   font-weight: bold;
-  font-stretch: normal;
-  font-style: normal;
-  line-height: normal;
-  letter-spacing: normal;
   text-align: center;
   color: #231f20;
   margin: 0px 0px 0px 34px;
 }
 
 #section1 p {
-  font-family: Poppins;
   font-size: 16px;
-  font-weight: normal;
-  font-stretch: normal;
-  font-style: normal;
-  line-height: normal;
-  letter-spacing: normal;
   text-align: justify;
   color: #231f20;
 }
@@ -179,26 +160,13 @@ header {
 */
 
 #section2 h2 {
-  font-family: Poppins;
   font-size: 32px;
   font-weight: 900;
-  font-stretch: normal;
-  font-style: normal;
-  line-height: normal;
-  letter-spacing: normal;
-  color: #ffffff;
   margin: 65px 0px 0px 0px;
 }
 
 #section2 p {
-  font-family: Poppins;
   font-size: 24px;
-  font-weight: normal;
-  font-stretch: normal;
-  font-style: normal;
-  line-height: normal;
-  letter-spacing: normal;
-  color: #ffffff;
 }
 
 #section2 .row {
@@ -216,7 +184,7 @@ header {
 #section2 .row-description {
   display: flex;
   flex-direction: column;
-  align-items: flex-start; /**/
+  align-items: flex-start;
   align-content: flex-start;
   margin-left: 60px;
 }
@@ -237,12 +205,11 @@ header {
 }
 
 #section3 h1 {
-  color: #ffffff;
   margin-top: 0px;
 }
 
 .card .description {
-  display: none; /*A CHANGER POUR DYNAMISME*/
+  display: none;
   position: absolute;
   top:0px;
 }
@@ -269,39 +236,21 @@ header {
 
 
 .card h3 {
-  font-family: Poppins;
   font-size: 14px;
-  font-weight: normal;
-  font-stretch: normal;
-  font-style: normal;
-  line-height: normal;
-  letter-spacing: normal;
   text-align: center;
-  color: #ffffff;
 }
 
 .card h2 {
-  font-family: Poppins;
   font-size: 32px;
   font-weight: bold;
-  font-stretch: normal;
-  font-style: normal;
   line-height: 1;
-  letter-spacing: normal;
   text-align: center;
   text-transform: uppercase;
 }
 
 .card p {
-  font-family: Poppins;
   font-size: 16px;
-  font-weight: normal;
-  font-stretch: normal;
-  font-style: normal;
-  line-height: normal;
-  letter-spacing: normal;
   text-align: center;
-  color: #ffffff;
 }
 
 
@@ -316,7 +265,6 @@ background-color: #231f20;
 }
 
 #section4 h1 {
-  color: #ffffff;
   margin-top: 0px;
   padding-top: 64px;
 }
@@ -331,6 +279,7 @@ background-color: #231f20;
   flex-basis: 33%;
   display: flex;
   flex-direction: column;
+  padding-bottom: 10px;
 }
 
 .personal-infos {
@@ -354,17 +303,10 @@ background-color: #231f20;
 
 
 label, input, select, .message textarea {
-  font-family: Poppins;
   font-size: 16px;
-  font-weight: normal;
-  font-stretch: normal;
-  font-style: normal;
-  line-height: normal;
-  letter-spacing: normal;
 }
 
 label {
-  color: #ffffff;
   padding: 8px;
 }
 input, select, .message textarea {
@@ -398,6 +340,10 @@ input, select, .message textarea {
   color: var(--tomato);
 }
 
+.dark-gray {
+  color: #231f20;
+}
+
 .gradient-sunflower {
   background: linear-gradient(var(--sunflower-yellow), rgba(0, 0, 0, 0));
 }
@@ -416,13 +362,8 @@ input, select, .message textarea {
   background: linear-gradient(var(--bright-orange), rgba(0, 0, 0, 0));
 }
 .learn-more {
-  font-family: Poppins;
   font-size: 20px;
   font-weight: bold;
-  font-stretch: normal;
-  font-style: normal;
-  line-height: normal;
-  letter-spacing: normal;
   text-align: center;
   width: 185px;
   height: 48px;
