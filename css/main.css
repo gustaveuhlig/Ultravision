@@ -353,6 +353,60 @@ background-color: #231f20;
   padding-top: 64px;
 }
 
+#section4 .row {
+  display: flex;
+  justify-content: center;
+  
+}
+
+.form-row {
+  flex-basis: 33%;
+  display: flex;
+  flex-direction: column;
+}
+
+.personal-infos {
+  margin: 0px 32px 0px 0px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.message {
+  margin: 0px 0px 0px 32px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  flex-basis: 40%;
+}
+
+.message textarea {
+  flex-basis: 100%;
+  resize: none;
+}
+
+
+label, input, select, .message textarea {
+  font-family: Poppins;
+  font-size: 16px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+}
+
+label {
+  color: #ffffff;
+  padding: 8px;
+}
+input, select, .message textarea {
+  padding: 8px;
+  color: #231f20;
+  border-radius: 8px;
+  background-color: #ffffff;
+  border: none;
+  
+}
 
 /**
 * ----------
@@ -420,4 +474,8 @@ background-color: #231f20;
 .learn-more-white {
   border: solid 4px white;
   color: white;
+}
+
+.end-space {
+  height:200px;
 }
