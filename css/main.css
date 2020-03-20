@@ -111,7 +111,8 @@ header {
 
 #section1 img, #section2 img {
   object-fit: contain;
-  mix-blend-mode: multiply;
+  mix-blend-mode: darken;
+  opacity: 90%;
 }
 
 #section1-image1 {
@@ -171,6 +172,7 @@ header {
 
 #section2 p {
   font-size: 24px;
+  max-width: 450px;
 }
 
 #section2 .row {
