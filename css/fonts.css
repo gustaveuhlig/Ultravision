@@ -1,158 +1,51 @@
 @font-face {
-    font-family: Montserrat;
-    src: local(Montserrat-ExtraLight),
-      url(../fonts/Montserrat-ExtraLight.otf) format("truetype");
-    font-weight: 200;
-    font-style: normal;
-    font-stretch: normal;
-  }
-  
-  @font-face {
-    font-family: Montserrat;
-    src: local(Montserrat-SemiBold),
-      url(../fonts/Montserrat-SemiBold.otf) format("truetype");
-    font-weight: 600;
-    font-style: normal;
-    font-stretch: normal;
-  }
-  
-  @font-face {
-    font-family: Poppins;
-    src: local(Poppins-Regular),
-      url(../fonts/Poppins-Regular.otf) format("truetype");
-    font-weight: normal;
-    font-style: normal;
-    font-stretch: normal;
-  }
-  
-  @font-face {
-    font-family: Poppins;
-    src: local(Poppins-Bold),
-      url(../fonts/Poppins-Bold.otf) format("truetype");
-    font-weight: bold;
-    font-style: normal;
-    font-stretch: normal;
-  }
-  
-  @font-face {
-    font-family: Poppins;
-    src: local(Poppins-Black),
-      url(../fonts/Poppins-Black.otf) format("truetype");
-    font-weight: 900;
-    font-style: normal;
-    font-stretch: normal;
-  }
-  
-  @font-face {
-    font-family: WorkSans;
-    src: local(WorkSans-Regular),
-      url(../fonts/WorkSans-Regular.otf) format("truetype");
-    font-weight: normal;
-    font-style: normal;
-    font-stretch: normal;
-  }
-  
-  .Ultravision-Header-Title {
-    font-family: Poppins;
-    font-size: 88px;
-    font-weight: 900;
-    font-stretch: normal;
-    font-style: normal;
-    line-height: normal;
-    letter-spacing: normal;
-    text-align: center;
-    color: #ffffff;
-  }
-  
-  .Text-Style {
-    font-family: Montserrat;
-    font-size: 42px;
-    font-weight: 200;
-    font-stretch: normal;
-    font-style: normal;
-    line-height: normal;
-    letter-spacing: normal;
-    text-align: center;
-    color: #ffffff;
-  }
-  
-  .Ultravision-Header-Subtitle {
-    font-family: Poppins;
-    font-size: 38px;
-    font-weight: 900;
-    font-stretch: normal;
-    font-style: normal;
-    line-height: normal;
-    letter-spacing: normal;
-    text-align: center;
-    color: #ffffff;
-  }
-  
-  .Ultravision-Slideshow-Title {
-    font-family: Poppins;
-    font-size: 32px;
-    font-weight: 900;
-    font-stretch: normal;
-    font-style: normal;
-    line-height: normal;
-    letter-spacing: normal;
-    color: #ffffff;
-  }
-  
-  .Text-Style-2 {
-    font-family: Montserrat;
-    font-size: 26px;
-    font-weight: 600;
-    font-stretch: normal;
-    font-style: normal;
-    line-height: normal;
-    letter-spacing: normal;
-    text-align: center;
-    color: #1a1a1a;
-  }
-  
-  .Ultravision-Content-Title {
-    font-family: Poppins;
-    font-size: 24px;
-    font-weight: bold;
-    font-stretch: normal;
-    font-style: normal;
-    line-height: normal;
-    letter-spacing: normal;
-    text-align: center;
-    color: #231f20;
-  }
-  
-  .Text-Style-4 {
-    font-family: Poppins;
-    font-size: 24px;
-    font-weight: normal;
-    font-stretch: normal;
-    font-style: normal;
-    line-height: normal;
-    letter-spacing: normal;
-    color: #ffffff;
-  }
-  
-  .Text-Style-3 {
-    font-family: WorkSans;
-    font-size: 24px;
-    font-weight: normal;
-    font-stretch: normal;
-    font-style: normal;
-    line-height: normal;
-    letter-spacing: normal;
-    color: #1a1a1a;
-  }
-  
-  .Text-Style-5 {
-    font-family: Poppins;
-    font-size: 16px;
-    font-weight: normal;
-    font-stretch: normal;
-    font-style: normal;
-    line-height: normal;
-    letter-spacing: normal;
-    text-align: justify;
-    color: #231f20;
-  }
+  font-family: Montserrat;
+  src: local(Montserrat-ExtraLight),
+    url(../fonts/Montserrat-ExtraLight.otf) format("truetype");
+  font-weight: 200;
+  font-style: normal;
+  font-stretch: normal;
+}
+
+@font-face {
+  font-family: Montserrat;
+  src: local(Montserrat-SemiBold),
+    url(../fonts/Montserrat-SemiBold.otf) format("truetype");
+  font-weight: 600;
+  font-style: normal;
+  font-stretch: normal;
+}
+
+@font-face {
+  font-family: Poppins;
+  src: local(Poppins-Regular),
+    url(../fonts/Poppins-Regular.otf) format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+}
+
+@font-face {
+  font-family: Poppins;
+  src: local(Poppins-Bold), url(../fonts/Poppins-Bold.otf) format("truetype");
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+}
+
+@font-face {
+  font-family: Poppins;
+  src: local(Poppins-Black), url(../fonts/Poppins-Black.otf) format("truetype");
+  font-weight: 900;
+  font-style: normal;
+  font-stretch: normal;
+}
+
+@font-face {
+  font-family: WorkSans;
+  src: local(WorkSans-Regular),
+    url(../fonts/WorkSans-Regular.otf) format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+}
